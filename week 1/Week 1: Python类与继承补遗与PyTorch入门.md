@@ -122,7 +122,7 @@ print(x.grad)
 
 最后，代码`out.backward()`执行反向传播梯度计算，计算$\frac{\partial \text{out}}{\partial x_{ij}}$ ，`x.grad`中存储的正是$\frac{\partial \text{out}}{\partial x_{ij}}$的值，即为$\text{out}$对$x$的梯度。
 
-[Reference]: https://blog.csdn.net/leonardotu/article/details/147402400
+> 参考文章：[CSDN：深度学习框架：PyTorch使用教程 ！！](https://blog.csdn.net/leonardotu/article/details/147402400)
 
 ## 2 Python的类与继承
 
@@ -175,7 +175,7 @@ print(cat.name)
 
 另外，在子类在继承父类之后，定义同名的函数即可进行覆写。
 
-[Reference]: https://www.cnblogs.com/ygbh/p/17556532.html
+> 参考文章：[博客园: Python-类的继承](https://www.cnblogs.com/ygbh/p/17556532.html)
 
 ### 2.3 `@property`装饰器
 
@@ -197,11 +197,9 @@ class C(object):
 
 `@property`修饰器用于修饰类，`@x.setter`用于声明某个参数的设置属性值的函数，`@x.getter`用于声明某个参数的获取属性值的函数，`@x.deleter`用于删除某属性值。
 
-[Reference]: https://zhuanlan.zhihu.com/p/16053072064
+计划下周Python部分补一下Python装饰器相关语法。
 
-
-
-> 计划下周Python部分补一下Python装饰器相关语法。
+> 参考文章：[知乎: Python装饰器中@property使用详解](https://zhuanlan.zhihu.com/p/16053072064)
 
 ### 2.4 超类
 
@@ -242,7 +240,7 @@ self is <__main__.B object at 0x105b8d010> @A.add
 >
 > `super`实际上做的事简单来说就是：提供一个 **MRO** 以及一个 **MRO** 中的类 **C** ， **super()** 将返回一个从 **MRO** 中 **C** 之后的类中查找方法的对象。也就是说，查找方式时不是像常规方法一样从所有的 **MRO** 类中查找，而是从 **MRO** 的 tail 中查找
 
-[Reference]: https://www.runoob.com/w3cnote/python-super-detail-intro.html
+> 参考文章：[菜鸟教程: Python super 详解](https://www.runoob.com/w3cnote/python-super-detail-intro.html)
 
 ## 3 神经网络
 
@@ -361,11 +359,11 @@ model = Model()
 print(model)
 ```
 
+> 参考文章：[CSDN: 【PyTorch】4-模型定义（Sequential、ModuleList/ModuleDict、模型块组装、修改模型、模型保存和读取）](https://blog.csdn.net/m0_65787507/article/details/138464752)
+
 ### 3.2 实现全连接神经网络（FCNN）
 
 通过实现全连接神经网络（Fully-Connected Neural Network），熟悉Pytorch实现神经网络的代码架构以及必须组成部分。
-
-[Reference]: https://www.cnblogs.com/grasp/p/18540403
 
 ```python
 from torchvision import transforms, datasets
@@ -466,6 +464,8 @@ Epoch 5/5: 100%|██████████| 938/938 [00:01<00:00, 628.34it/s
 `nn.CrossEntropyLoss()`使用交叉熵函数作为损失函数，`torch.optim.Adam(model.parameters(), lr=0.001)`将优化器设定为Adam优化器，Epoch设定为5，并使用tqdm库优化训练进度可视化，使其更加可读。
 
 这样就实现了一个最简单的模型训练过程。
+
+> 参考文章：[博客园: pytorch简单识别MNIST的全连接神经网络](https://www.cnblogs.com/grasp/p/18540403)
 
 
 ## 总结
