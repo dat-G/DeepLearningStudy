@@ -1,2 +1,10 @@
 /.idea
 /.venv
+week 1/dataset/mnist/MNIST/raw/t10k-images-idx3-ubyte
+week 1/dataset/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+week 1/dataset/mnist/MNIST/raw/t10k-labels-idx1-ubyte
+week 1/dataset/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+week 1/dataset/mnist/MNIST/raw/train-images-idx3-ubyte
+week 1/dataset/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+week 1/dataset/mnist/MNIST/raw/train-labels-idx1-ubyte
+week 1/dataset/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
