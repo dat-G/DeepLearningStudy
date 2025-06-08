@@ -114,10 +114,9 @@ $$
 ##### 1.2.2.2 MAE 平均绝对误差
 
 $$
-\begin{equation}
-
+\begin {equation}
 MAE=\frac{1}{n}\sum^n_{i=1}\left|y_i-\hat{y_i}\right|
-\end{equation}
+\end {equation}
 $$
 
 平均绝对误差计算的是真实值与预测纸质件差值的绝对值的平均值，其对异常值较不敏感，在一些不需要突出异常值的评估场景中比较适用。
