@@ -8,7 +8,7 @@
 
 ## Abstract
 
-This week, I continued to study Professor Li Hongyi's course. I mainly explored two core issues in model training: overfitting and classification tasks. In this week's learning process, I understood the overfitting problem and its solution. At the same time, I understood, explained and deduced the mathematical principles of classification tasks, including probability models, maximum likelihood estimation and posterior probability.
+This week, I continued to study Professor Hung-yi Lee's course. I mainly explored two core issues in model training: overfitting and classification tasks. In this week's learning process, I understood the overfitting problem and its solution. At the same time, I understood, explained and deduced the mathematical principles of classification tasks, including probability models, maximum likelihood estimation and posterior probability.
 
 ## 1. 过拟合
 

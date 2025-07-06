@@ -8,7 +8,7 @@
 
 ## Abstract
 
-This week, I continued to follow Professor Li Hongyi's course learning, mainly studying and deriving content related to logistic regression, and exploring multi classification tasks in more depth. At the same time, mathematical deductions were made regarding the differences between discriminative models and generative models, establishing a certain understanding.
+This week, I continued to follow Professor Hung-yi Lee's course learning, mainly studying and deriving content related to logistic regression, and exploring multi classification tasks in more depth. At the same time, mathematical deductions were made regarding the differences between discriminative models and generative models, establishing a certain understanding.
 
 ## 1. 逻辑回归的函数变化
 
@@ -16,7 +16,7 @@ This week, I continued to follow Professor Li Hongyi's course learning, mainly s
 
 ![Function Set](https://i-blog.csdnimg.cn/direct/e9066c373c4d43f5bdcbedba78cbaf5a.png)
 
-> 图片来源：(ML Lecture 5: Logistic Regression)[https://youtu.be/hSXFuypLukA?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&t=174]
+> 图片来源：[ML Lecture 5: Logistic Regression](https://youtu.be/hSXFuypLukA?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&t=174)
 
 ## 2. 逻辑回归的损失变化
 
@@ -130,7 +130,7 @@ $$
 
 ![Limitation of Logistic Regression](https://i-blog.csdnimg.cn/direct/f05c22b4bf84483b9e7a93e6ac975887.png)
 
-> 图片来源：(ML Lecture 5: Logistic Regression)[https://youtu.be/hSXFuypLukA?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&t=3449]
+> 图片来源：[ML Lecture 5: Logistic Regression](https://youtu.be/hSXFuypLukA?list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49&t=3449)
 
 可见，因为逻辑回归的类别边界为平面上的一条分界线，而如图的情况中无法有一条线能划分开两个类别，就需要进行特征变换。
 
