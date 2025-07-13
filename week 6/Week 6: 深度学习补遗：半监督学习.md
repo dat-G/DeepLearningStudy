@@ -8,7 +8,7 @@
 
 ## Abstract
 
-In this week's learning, I continued to follow up with Professor Li Hongyi's course, mainly to understand and learn about the training method of semi supervised learning, and to understand its underlying ideas and mathematical basis.
+In this week's learning, I continued to follow up with Professor Hung-yi Lee's course, mainly to understand and learn about the training method of semi supervised learning, and to understand its underlying ideas and mathematical basis.
 
 ## 1. 监督学习和半监督学习
 
