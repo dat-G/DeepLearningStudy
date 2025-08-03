@@ -77,7 +77,7 @@ $$
 
 ![VAE](https://i-blog.csdnimg.cn/direct/a5caa24e2f3c4fa589f8037d32436628.png)
 
-VAE对比PixelRNN的主要优势，其实是可以控制生成的参数。训练好模型后，提取NN Decoder部分，生成的输入部分就是向量$\bold c$，这时控制输入向量的变化就可以让生成的图片产生不同的变化。
+VAE对比PixelRNN的主要优势，其实是可以控制生成的参数。训练好模型后，提取NN Decoder部分，生成的输入部分就 是向量$\bold c$，这时控制输入向量的变化就可以让生成的图片产生不同的变化。
 
 ## 总结
 
