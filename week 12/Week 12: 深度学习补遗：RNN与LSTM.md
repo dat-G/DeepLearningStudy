@@ -8,7 +8,7 @@
 
 ## Abstract
 
-This week, I took a course with Professor Hung-yi Lee on autoencoders and generative models, which are closely related. I mainly studied autoencoders from an abstract and mathematical perspective. The encoder-decoder architecture is a major mainstream structure in current models and is therefore important to learn. Studying autoencoders and generative models has given me a certain understanding of the encoder-decoder architecture.
+This week, we continued to follow Prof. Hung-yi Lee's course, focusing on learning about recurrent neural networks and long short-term memory, understanding their underlying logic and specific mathematical implementation. In addition, we gained a certain degree of understanding of the reasons for their effectiveness and underlying logic.
 
 ## 1. Recurrent Neural Network 循环神经网络
 
