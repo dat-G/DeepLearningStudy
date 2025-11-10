@@ -8,7 +8,7 @@
 
 ## Abstract
 
-This week, I continued studying Adaboost-related knowledge and mathematical principle derivations in Professor Li Hongyi's course. At the same time, following the professor's guidance, I began supplementing some foundational knowledge related to quantum computing.
+This week, I continued studying Adaboost-related knowledge and mathematical principle derivations in Professor Hung-yi Lee's course. At the same time, following the professor's guidance, I began supplementing some foundational knowledge related to quantum computing.
 
 ## 1. Adaboost
 
